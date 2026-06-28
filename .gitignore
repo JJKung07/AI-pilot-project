@@ -1,0 +1,36 @@
+# Node
+node_modules/
+dist/
+.env
+npm-debug.log
+
+# Playwright
+playwright-report/
+test-results/
+.playwright/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Robot Framework
+output.xml
+report.html
+log.html
+sample-project/robot-framework/reports/
+
+# Apps
+sample-project/robot-framework/apps/*.apk
+sample-project/robot-framework/apps/*.app
+sample-project/robot-framework/apps/*.ipa
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
