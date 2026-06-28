@@ -1,0 +1,25 @@
+{
+  "name": "@ai-qa-pilot/playwright-web-q",
+  "version": "1.0.0",
+  "description": "Playwright Web Automation — Amazon Q Generated",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:api": "playwright test --config=playwright.api.config.js",
+    "test:report": "playwright show-report"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0",
+    "ajv": "^8.12.0",
+    "dotenv": "^16.4.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
